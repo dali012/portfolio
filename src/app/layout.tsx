@@ -33,7 +33,10 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
@@ -90,7 +93,7 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
-            <div className="absolute inset-0 top-0 left-0 right-0 h-25 overflow-hidden z-0">
+            <div className="absolute inset-0 top-0 left-0 right-0 h-25 overflow-hidden z-0 print:hidden">
               <FlickeringGrid
                 className="h-full w-full"
                 squareSize={2}
@@ -102,7 +105,7 @@ export default function RootLayout({
                 }}
               />
             </div>
-            <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
+            <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6 print:m-0 print:max-w-none print:p-0">
               {children}
             </div>
             <Navbar />

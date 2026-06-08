@@ -41,7 +41,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/Med-Ali-Jerbi-CV.pdf", icon: FileTextIcon, label: "CV" },
+    { href: "/cv", icon: FileTextIcon, label: "CV" },
   ],
   contact: {
     email: "contact@dali012.me",
