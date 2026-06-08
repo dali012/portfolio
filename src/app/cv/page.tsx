@@ -38,7 +38,7 @@ function TimelineEntry({
       </div>
       <div className="relative flex justify-center">
         <span className={`mt-1 size-4 rounded-full border-[3px] bg-[#f8f2e9] ${accentBorder}`} />
-        <span className={`absolute top-6 h-[calc(100%-1.5rem)] w-[3px] bg-[#c71f0a]`} />
+        <span className={`absolute top-6 h-[calc(100%-1.5rem)] w-0.75 bg-[#c71f0a]`} />
       </div>
       <div className="pb-9">
         <h2 className={`font-mono text-xl font-semibold uppercase leading-none tracking-wider ${accent}`}>
@@ -79,7 +79,7 @@ export default function CvPage() {
         </Link>
       </div>
 
-      <article className={`mx-auto min-h-[68rem] rounded-[1.35rem] border-[3px] ${accentBorder} bg-[#f8f2e9] px-9 py-10 text-black shadow-sm print:min-h-[10.5in] print:w-[7.7in] print:rounded-[0.22in] print:px-[0.34in] print:py-[0.34in] print:shadow-none`}>
+      <article className={`mx-auto min-h-272 rounded-[1.35rem] border-[3px] ${accentBorder} bg-[#f8f2e9] px-9 py-10 text-black shadow-sm print:min-h-252 print:w-[7.7in] print:rounded-[0.22in] print:px-[0.34in] print:py-[0.34in] print:shadow-none`}>
         <header className="grid grid-cols-[8.5rem_minmax(0,1fr)] gap-8">
           <div className={`relative size-28 overflow-hidden rounded-full border-2 ${accentBorder}`}>
             <Image
@@ -122,7 +122,7 @@ export default function CvPage() {
                 LinkedIn
               </a>
             </div>
-            <p className="mt-3 max-w-[34rem] text-[15px] leading-snug">
+            <p className="mt-3 max-w-136 text-[15px] leading-snug">
               {DATA.description}
             </p>
           </div>
