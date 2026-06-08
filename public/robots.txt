@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dali012.me/sitemap.xml

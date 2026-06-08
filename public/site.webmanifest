@@ -1,0 +1,16 @@
+{
+  "name": "Med Ali Jerbi Portfolio",
+  "short_name": "Med Ali Jerbi",
+  "description": "Portfolio and resume for Med Ali Jerbi, Fullstack Developer, Odoo and ERP specialist, and AI enthusiast.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f5ef",
+  "theme_color": "#24352f",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
