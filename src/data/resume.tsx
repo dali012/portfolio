@@ -136,6 +136,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Odoo Ops Copilot",
+      href: "https://github.com/dali012/odoo-ops-copilot",
+      dates: "2026",
+      active: true,
+      description:
+        "AI operations copilot for live Odoo ERP data, combining guarded analytics, demand forecasting, RFM customer segmentation, workflow suggestions, and approval-gated writebacks.",
+      technologies: [
+        "Odoo",
+        "Python",
+        "AI Agents",
+        "Forecasting",
+        "Analytics",
+        "ERP",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/dali012/odoo-ops-copilot",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/odoo-ops-copilot.png",
+      video: "",
+    },
+    {
       title: "Dimensione Immagine",
       href: "https://github.com/dali012/dimensione-immagine",
       dates: "2025 - Present",
